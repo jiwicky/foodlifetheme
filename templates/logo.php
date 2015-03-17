@@ -1,0 +1,1 @@
+<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/foodlife_logo.png" /></a>

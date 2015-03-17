@@ -171,3 +171,12 @@ function google_analytics() {
 if (GOOGLE_ANALYTICS_ID) {
   add_action('wp_footer', __NAMESPACE__ . '\\google_analytics', 20);
 }
+
+  //GOOGLE FONTS ENQUEUE
+
+      function load_fonts() {
+            wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+            wp_enqueue_style( 'googleFonts');
+        }
+    
+    add_action('wp_print_styles', 'load_fonts');

@@ -1,2 +1,27 @@
-<time class="updated" datetime="<?= get_the_time('c'); ?>"><?= get_the_date(); ?></time>
-<p class="byline author vcard"><?= __('By', 'sage'); ?> <a href="<?= get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author" class="fn"><?= get_the_author(); ?></a></p>
+<p> 
+<?php if(!is_category()){ ?>
+
+	<span class="category-byline"><?php echo the_category(' | '); ?></span>
+
+<?php } ?>
+
+<?php if (is_single()) { ?>
+
+	<?php
+		if(get_field('fl_author')) { ?>
+			| by <?php the_field('fl_author');?>
+	<?php
+			if(get_field('fl_author') && get_field('fl_photographer')) {
+				echo " | ";
+			}
+		}
+
+		if(get_field('fl_photographer')){ ?>
+			photography by <?php the_field('fl_photographer'); ?>
+	<?php
+		} ?>
+</p>
+
+<?php
+} 
+?>
