@@ -9,7 +9,7 @@
 
 	<?php
 		if(get_field('fl_author')) { ?>
-			| by <?php the_field('fl_author');?>
+			by <?php the_field('fl_author');?>
 	<?php
 			if(get_field('fl_author') && get_field('fl_photographer')) {
 				echo " | ";
