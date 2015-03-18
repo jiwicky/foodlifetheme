@@ -1,3 +1,18 @@
+<?php 
+$args = array(
+          'before'           => '<p>' . __( 'Pages:' ),
+    'after'            => '</p>',
+    'link_before'      => '',
+    'link_after'       => '',
+    'next_or_number'   => 'number',
+    'separator'        => ' ',
+    'nextpagelink'     => __( 'Next page' ),
+    'previouspagelink' => __( 'Previous page' ),
+    'pagelink'         => '%',
+    'echo'             => 1
+  );
+?>
+
 <?php while (have_posts()) : the_post(); ?>
 <div class="col-md-8 article">
   <article <?php post_class(); ?>>
@@ -8,6 +23,7 @@
     </header>
     <div class="entry-content">
       <?php the_content(); ?>
+      <?php wp_link_pages($args); ?> 
     </div>
     <footer>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
@@ -19,3 +35,6 @@
 <?php get_template_part('templates/logo');?>
 </div>
 <?php endwhile; ?>
+<div class="container col-md-12">
+    <?php get_template_part('templates/bottom-posts');?>
+</div>
