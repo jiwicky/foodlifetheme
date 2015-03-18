@@ -19,6 +19,13 @@ $args = array(
     <header>
       <img class="single-header-fork" src="<?php echo get_template_directory_uri();?>/assets/images/logo-fork-graphic.png" alt="" />
       <h1 class="entry-title"><?php the_title(); ?></h1>
+
+      <?php if(the_field('article_subhead')){ ?>
+
+        <h4><?php echo the_field('article_subhead')?></h4>
+
+      <?php } ?>
+      
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
     <div class="entry-content">
@@ -28,12 +35,17 @@ $args = array(
     <footer>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
     </footer>
-   <?php //comments_template('/templates/comments.php'); ?>
+
   </article>
 </div>
 <div class=" col-md-4 logo">
-<?php get_template_part('templates/logo');?>
+  <?php get_template_part('templates/logo');?>
 </div>
+
+<div class="col-md-4 category-sidebar">
+  <?php get_template_part('templates/covers-section'); ?>
+</div>
+
 <?php endwhile; ?>
 <div class="container col-md-12">
     <?php get_template_part('templates/bottom-posts');?>
