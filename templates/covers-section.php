@@ -1,4 +1,4 @@
-<?php if(is_single() || is_page_template()) {
+<?php if(is_single()) {
 	echo '<div class="vertical-covers">';
 } else {
 	echo '<div class="horizontal-covers">';
