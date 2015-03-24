@@ -20,7 +20,7 @@ $args = array(
       <img class="single-header-fork" src="<?php echo get_template_directory_uri();?>/assets/images/logo-fork-graphic.png" alt="" />
       <h1 class="entry-title"><?php the_title(); ?></h1>
 
-      <?php if(the_field('article_subhead')){ ?>
+      <?php if(get_field('article_subhead')){ ?>
 
         <h4 class="subhead"><?php the_field('article_subhead')?></h4>
 
