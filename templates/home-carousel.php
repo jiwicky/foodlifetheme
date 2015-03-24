@@ -10,25 +10,25 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
+    <div class="item feature active">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_feature.jpg" alt="...">
       <div class="carousel-caption">
 Feature
       </div>
     </div>
-    <div class="item">
+    <div class="item recipes">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_recipes.jpg" alt="...">
       <div class="carousel-caption">
 Recipes
       </div>
     </div>
- <div class="item">
+ <div class="item advertise">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_dist_list.jpg" alt="...">
       <div class="carousel-caption">
 Find a Copy
       </div>
     </div>
-  <div class="item">
+  <div class="item distribution">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_advertise.jpg" alt="...">
       <div class="carousel-caption">
 Advertise
