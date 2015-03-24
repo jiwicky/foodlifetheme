@@ -13,25 +13,25 @@
     <div class="item active">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_feature.jpg" alt="...">
       <div class="carousel-caption">
-slide 1
+Feature
       </div>
     </div>
     <div class="item">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_recipes.jpg" alt="...">
       <div class="carousel-caption">
-slide 2
+Recipes
       </div>
     </div>
  <div class="item">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_dist_list.jpg" alt="...">
       <div class="carousel-caption">
-slide 3
+Distibution
       </div>
     </div>
   <div class="item">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_advertise.jpg" alt="...">
       <div class="carousel-caption">
-slide 4
+Advertise
       </div>
     </div>
   </div>
