@@ -25,7 +25,7 @@ Recipes
  <div class="item">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_dist_list.jpg" alt="...">
       <div class="carousel-caption">
-Distibution
+Find a Copy
       </div>
     </div>
   <div class="item">
