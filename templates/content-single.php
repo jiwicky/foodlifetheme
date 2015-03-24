@@ -22,7 +22,7 @@ $args = array(
 
       <?php if(the_field('article_subhead')){ ?>
 
-        <h4><?php echo the_field('article_subhead')?></h4>
+        <h4 class="subhead"><?php the_field('article_subhead')?></h4>
 
       <?php } ?>
       
