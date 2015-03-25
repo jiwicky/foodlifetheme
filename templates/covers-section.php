@@ -2,6 +2,7 @@
 	echo '<div class="horizontal-covers">';
 } else {
 	echo '<div class="vertical-covers">';
+	echo '<h3 class="previous-issues">Previous Issues</h3>';
 	}?>
 
 <?php foreach (get_categories() as $cat) : ?>
@@ -15,10 +16,13 @@
 	<img src="<?php echo z_taxonomy_image_url($cat->term_id); ?>" />
 </a>
 
-<a href="<?php echo get_category_link($cat->term_id); ?>">
-	<?php echo $cat->cat_name; ?>
-</a>
-	</div>
+<div class="issue-name">
+	<a href="<?php echo get_category_link($cat->term_id); ?>">
+		<?php echo $cat->cat_name; ?>
+	</a>
+</div>
+</div>
+
 <?php endforeach; ?>
 
 </div>
