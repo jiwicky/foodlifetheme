@@ -17,10 +17,6 @@
 
 <?php get_template_part('templates/logo');?>
 
-<div class="home-forms">
-  <div class="home-form">Advertise</div>
-  <div class="home-form">Contribute</div>
-  <div class="home-form">Recipes</div>
-</div>
+<?php get_template_part('templates/forms'); ?>
 
 </div>

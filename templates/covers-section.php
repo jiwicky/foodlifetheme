@@ -1,5 +1,5 @@
 <?php if(is_front_page()) {
-	echo '<div class="horizontal-covers">';
+	echo '<div class="horizontal-covers col-md-12">';
 } else {
 	echo '<div class="vertical-covers">';
 	echo '<h3 class="previous-issues">Previous Issues</h3>';

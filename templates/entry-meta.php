@@ -1,4 +1,4 @@
-<p> 
+<p class="byline-content"> 
 <?php if(!is_category()){ ?>
 
 	<span class="category-byline"><?php echo the_category(' | '); ?></span>
