@@ -14,7 +14,7 @@ $args = array(
 ?>
 
 <?php while (have_posts()) : the_post(); ?>
-<div class="article col-md-8">
+<div class="article">
   <article <?php post_class(); ?>>
     <header>
       <img class="single-header-fork" src="<?php echo get_template_directory_uri();?>/assets/images/logo-fork-graphic.png" alt="" />
@@ -42,9 +42,9 @@ $args = array(
 </div>
 <?php endwhile; ?>
 
-<div class="col-md-4">
+<!-- <div class="col-md-4">
   <?php get_template_part('templates/sidebar'); ?>
 </div>
 <div class="container col-md-12">
     <?php get_template_part('templates/bottom-posts');?>
-</div>
+</div> -->
