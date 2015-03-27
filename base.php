@@ -28,7 +28,14 @@ use Roots\Sage\Wrapper;
         <?php endif; ?>
       </div><!-- /.content -->
     </div><!-- /.wrap -->
-    <?php
+    <?php 
+    if(is_single()) {
+      get_template_part('templates/bottom-posts'); 
+    }
+
+      ?>
+
+      <?php
 
       get_template_part('templates/footer');
 
