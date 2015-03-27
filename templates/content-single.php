@@ -41,10 +41,3 @@ $args = array(
   </article>
 </div>
 <?php endwhile; ?>
-
-<!-- <div class="col-md-4">
-  <?php get_template_part('templates/sidebar'); ?>
-</div>
-<div class="container col-md-12">
-    <?php get_template_part('templates/bottom-posts');?>
-</div> -->
