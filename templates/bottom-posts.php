@@ -4,12 +4,13 @@
 		<img class="more-posts-fork" src="<?php echo get_template_directory_uri();?>/assets/images/logo-fork-graphic-outlined.png" alt="Food Life" />
 </div>
 <?php 
-$args = array(
-	'orderby'        => 'rand',
-	'posts_per_page' => '4',
-
+	 $args = array(
+		'orderby'        => 'rand',
+		'posts_per_page' => '4',
 );
+
 $bottomposts = new WP_Query($args);?>
+
 <?php
    if($bottomposts->have_posts()) : 
       while($bottomposts->have_posts()) : 
