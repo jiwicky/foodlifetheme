@@ -1,18 +1,3 @@
-<?php 
-$args = array(
-          'before'           => '<p>' . __( 'Pages:' ),
-    'after'            => '</p>',
-    'link_before'      => '',
-    'link_after'       => '',
-    'next_or_number'   => 'number',
-    'separator'        => ' ',
-    'nextpagelink'     => __( 'Next page' ),
-    'previouspagelink' => __( 'Previous page' ),
-    'pagelink'         => '%',
-    'echo'             => 1
-  );
-?>
-
 <?php while (have_posts()) : the_post(); ?>
 <div class="article">
   <article <?php post_class(); ?>>
@@ -31,11 +16,16 @@ $args = array(
 
     <div class="entry-content">
       <?php the_content(); ?>
-      <?php wp_link_pages($args); ?> 
+
     </div>
 
     <footer>
-      <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
+      <?php wp_link_pages(array
+        (
+          $args, 
+          ['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']
+        )
+      ); ?>
     </footer>
 
   </article>
