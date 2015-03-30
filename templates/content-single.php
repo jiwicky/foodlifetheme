@@ -1,3 +1,5 @@
+
+
 <?php while (have_posts()) : the_post(); ?>
 <div class="article">
   <article <?php post_class(); ?>>
@@ -20,12 +22,16 @@
     </div>
 
     <footer>
-      <?php wp_link_pages(array
-        (
-          $args, 
-          ['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']
-        )
-      ); ?>
+<?php wp_link_pages([
+  'before' => '<nav class="page-nav"><ul>' . __('<h4>Pages</h4>', 'sage'), 
+  'after' => '</ul></nav>',
+  'nextpagelink' => __( 'Next page' ),
+  'previouspagelink' => __( 'Previous page' ),
+  'pagelink' => '%',
+  'link_before' => '<li>',
+  'link_after' => '</li>',
+  'echo' => 1
+  ]); ?>
     </footer>
 
   </article>
