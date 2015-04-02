@@ -93,6 +93,13 @@ function bower_map_to_cdn($dependency, $fallback) {
   }
 
 }
+  
+  function goo_fonts() {
+            wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans');
+            wp_enqueue_style( 'googleFonts');
+        }
+    
+    add_action('wp_print_styles', __NAMESPACE__ . '\\goo_fonts');
 
 function assets() {
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
