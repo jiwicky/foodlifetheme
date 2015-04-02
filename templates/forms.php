@@ -1,14 +1,14 @@
 <div class="home-forms">
   <div class="home-form">
-  	<h2>Advertise</h2>
-  	<p>Food Life Magazine reaches a lot of people that might be interested in your product or service. Contact us to see if we can help!</p>
+  	<a href="<?php echo get_site_url();?>/advertise-in-food-life-magazine/"><h2>Advertise</h2></a>
+
   </div>
   <div class="home-form">
-  	<h2>Contribute</h2>
-  	<p>Have a story to tell? We would like to hear it!</p>
+  	<a href="<?php echo get_site_url();?>/advertise-in-food-life-magazine/be-a-content-contributor-to-food-life/"><h2>Contribute Content</h2></a>
+
   </div>
   <div class="home-form">
-  	<h2>Recipes</h2>
-  	<p> Send us a favorite recipe for the next issue!</p>
+  	<a href="<?php echo get_site_url();?>/send-your-recipe-to-food-life/"><h2>Send a Recipes</h2></a>
+
   </div>
 </div>
