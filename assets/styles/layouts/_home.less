@@ -1,7 +1,22 @@
 //Sidebar Forms Home
-.home-form {text-align:center}
-.home-form h2 {margin-top: 0px;; margin:0; padding-top: 0; width: 100%; color: @gray}
-.home-form a:hover {text-decoration: underline; color: @dark-green}
+.home-form {text-align:center;}
+.home-form h2 {width: 100%; background-color: rgba(255,255,255,.5); font-size: 46px; padding-top: 5px; padding-bottom: 5px; width: 100%; margin-top: 0px; margin-left: -15px; border-radius: 0 15px 15px 0; }
+
+.home-advertise {background: url("../images/home_forms/advertise_bg.jpg") no-repeat top left;}
+.home-contribute {background: url("../images/home_forms/contribute_bg.jpg") no-repeat top left;}
+.home-recipes {background: url("../images/home_forms/recipes_bg.jpg") no-repeat top left; background-size: 100% auto;}
+
+
+.home-advertise h2 {margin-top: 37px}
+.home-contribute h2 {margin-top: 20px}
+.home-recipes h2 {margin-top: 37px}
+
+.home-form h2:hover {background-color: white; transition: background-color .2s ease-in-out;}
+
+
+.home-form a:link, .home-form a:visited, .home-form a:active {color: @gray}
+.home-form a:hover {color: @dark-green}
+
 .home-form p {font-size: 16px}
 .home-form {
 	min-height: 160px; 
@@ -9,12 +24,11 @@
 	border-radius: 15px; 
 	overflow:hidden; 
 	margin:20px 10px; 
-	background-color: fade(@blue, 25%);
 	color: @gray;
 	padding: 15px;
 }
 .home-forms {margin-top: 45px}
-.home-forms a{color: white}
+.home-forms a {color: white}
 .issue-name {font-size: 20px; text-transform: uppercase; color: @blue; margin-top: 10px}
 .horizontal-covers {margin-top: 25px; text-align: center; margin-bottom: 40px}
 .horizontal-cover-single img {box-shadow: 3px 3px 3px rgba(0, 0, 0, .4); width: 90%; margin: 0 auto}

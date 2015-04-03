@@ -40,7 +40,7 @@
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#cfoodlife-home-carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#foodlife-home-carousel" role="button" data-slide="prev">
 
     <span class="sr-only">Previous</span>
   </a>
