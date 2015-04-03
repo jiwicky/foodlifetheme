@@ -1,14 +1,12 @@
-.carousel-control.left {background-image: none; color: black; top: 45%}
-.carousel-control.right {background-image: none; color: black; top: 45%}
-.carousel-control:hover {background-color: @blue}
+.carousel-control.left {background: url("../images/arrow_left_up.png") no-repeat top left;  background-size: 100% 100%; color: black; top: 45%; opacity: .2; transition: opacity .25s ease-in-out; margin-left: 10px}
 
-.carousel-control {
-	transition: background-color 0.2s ease;
-}
-
-.carousel-control {border: 2px solid @dark-green; background-color: white; height: 40px; width: 40px}
+.carousel-control.right {background: url("../images/arrow_rt_up.png") no-repeat top left;  background-size: 100% 100%; color: black; top: 45%; opacity: .2; transition: opacity .25s ease-in-out; margin-right: 10px}
+.carousel-control.right:hover {opacity: .8}
+.carousel-control.left:hover {opacity: .8}
+.carousel-control {height: 40px; width: 40px}
 
 .item {height: 400px;}
+
 .carousel-caption {left: auto; right: auto; top: auto; bottom: auto}
 .home-carousel {border: 1px solid @blue; overflow: hidden; margin: 30px 0 30px 0}
 .carousel-caption h3 {margin: 0px; text-shadow: none;}
@@ -25,3 +23,14 @@
 
 .distribution .carousel-caption {color: white; position: absolute; top: 0; right: 0; font-weight: 400; margin: 10px; text-shadow: none;}
 .home .distribution h3 {font-size: 40px}
+
+
+  @media (min-width: @screen-sm-min) {
+
+  }
+  @media (min-width: @screen-md-min) {
+  	
+  }
+  @media (min-width: @screen-lg-min) {
+  	
+  }

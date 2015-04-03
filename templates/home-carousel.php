@@ -1,5 +1,5 @@
 
-<div id="carousel-example-generic" class="carousel slide home-carousel" data-ride="carousel">
+<div id="foodlife-home-carousel" class="carousel slide home-carousel" data-ride="carousel">
   <!-- Indicators -->
 <!--   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -40,11 +40,11 @@
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#cfoodlife-home-carousel" role="button" data-slide="prev">
 
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" href="#foodlife-home-carousel" role="button" data-slide="next">
 
     <span class="sr-only">Next</span>
   </a>
