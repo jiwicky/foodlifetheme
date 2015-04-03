@@ -11,18 +11,22 @@
 .home-carousel {border: 1px solid @blue; overflow: hidden; margin: 30px 0 30px 0}
 .carousel-caption h3 {margin: 0px; text-shadow: none;}
 
+.carousel-caption a:link, .carousel-caption a:visited, .carousel-caption a:active {color: white; text-align: left;}
+.feature .carousel-caption a:link, .feature .carousel-caption a:visited, .feature .carousel-caption a:active {color: @gray; text-align: right;}
 
-.feature .carousel-caption {color: white; position: absolute; top: 15px; padding: 15px 30px 15px 30px;}
-.home .feature h3{font-size: 40px}
 
-.recipes .carousel-caption {color: white; position: absolute; top: 75%; padding: 15px 30px 15px 30px; font-size: 40px; font-weight: 400;  text-shadow: none;}
-.home .recipes h3 {font-size: 40px}
+.feature .carousel-caption {color: @gray; position: absolute; left: 20px; top: 10px; padding: 15px 30px 15px 30px; }
+.home .feature h3 {font-size: 45px}
 
-.advertise .carousel-caption {color: white; position: absolute; left: 50px; top: 60%; font-weight: 400;  text-shadow: none}
-.home .advertise h3 {font-size: 40px}
 
-.distribution .carousel-caption {color: white; position: absolute; top: 0; right: 0; font-weight: 400; margin: 10px; text-shadow: none;}
-.home .distribution h3 {font-size: 40px}
+.recipes .carousel-caption {color: white; position: absolute; left: 70px; top: 75%; padding: 15px 30px 15px 40px;font-weight: 400;  text-shadow: none;}
+.home .recipes h3 {font-size: 50px}
+
+.advertise .carousel-caption {color: white; position: absolute; left: 50px; top: 70%; font-weight: 400;  text-shadow: none}
+.home .advertise h3 {font-size: 50px}
+
+.distribution .carousel-caption {color: white; position: absolute; left: 57%; top: 40px; font-weight: 400; margin: 10px; text-shadow: none;}
+.home .distribution h3 {font-size: 50px}
 
 
   @media (min-width: @screen-sm-min) {

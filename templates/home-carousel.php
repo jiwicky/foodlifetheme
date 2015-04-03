@@ -12,29 +12,47 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item feature active">
-      <a href="#">
+      <a href="http://www.foodlifemag.com/world-class-cuisine-close-to-home/">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_feature.jpg" alt="...">
       </a>
 
-      <div class="carousel-caption"><h3>Feature</h3></div>
+      <div class="carousel-caption">
+      <a href="http://www.foodlifemag.com/world-class-cuisine-close-to-home/">
+      <h3>World Class Cuisine <br /> Close to Home</h3></a>
+      </div>
   </div>
   
   <div class="item recipes">
+   <a href="http://www.foodlifemag.com/say-cheese/">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_recipes.jpg" alt="...">
+      </a>
 
-      <div class="carousel-caption"><h3>Recipes</h3></div>
+      <div class="carousel-caption"><a href="http://www.foodlifemag.com/say-cheese/"><h3>Say Cheese</h3></a>
+      </div>
   </div>
 
   <div class="item distribution">
+      <a href="http://www.foodlifemag.com/distribution-list/">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_dist_list.jpg" alt="...">
+      </a>
 
-      <div class="carousel-caption"><h3>Find a Copy</h3></div>
+      <div class="carousel-caption">
+      <a href="http://www.foodlifemag.com/distribution-list/">
+        <h3>Find a Copy</h3>
+        </a>
+        </div>
   </div>
 
   <div class="item advertise">
+    <a href="http://www.foodlifemag.com/advertise-in-food-life-magazine/">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/spring_2015_slides/spring_2015_advertise.jpg" alt="...">
+      </a>
 
-      <div class="carousel-caption"><h3>Advertise</h3></div>
+      <div class="carousel-caption">
+      <a href="http://www.foodlifemag.com/advertise-in-food-life-magazine/">
+        <h3>Advertise</h3>
+          </a>
+        </div>
   </div>
 
   </div>
